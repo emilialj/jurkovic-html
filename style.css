@@ -1,0 +1,32 @@
+#footer {
+            background-color: rgb(57, 145, 68) !important;
+        }
+.fsli {
+            width: 80px !important;
+            height: 80px !important;
+            padding: 5px !important;
+            margin-top: 5px !important;
+            margin-left: 5px !important;
+        }
+@media only screen and (max-width: 1200px) {
+            #fsli {
+                width: 40px !important;
+            height: 40px !important;
+            padding: 5px !important;
+            margin-top: 5px !important;
+            margin-left: 5px !important;
+            }
+        }
+.top-right {
+            position: absolute;
+            top: 100px;
+            right: 200px;
+        }
+.nav-link {
+            color: white !important;
+        }
+@media only screen and (max-width: 1200px) {
+            .top-right {
+                display: none;
+            }
+        }
